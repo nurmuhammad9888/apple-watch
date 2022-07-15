@@ -45,6 +45,7 @@ body{
     text-align: center;
     color: #333333;
     border-bottom: 3px solid transparent;
+    transition: border-bottom .1s ease;
 }
 .sitenav-link:hover{
     border-bottom: 3px solid #000;
