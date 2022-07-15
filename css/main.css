@@ -34,18 +34,20 @@ body{
 }
 .sitenav-item{
     padding:36px 15px 5px 15px ;
-    border-bottom: 2px solid transparent;
 }
-.sitenav-item:hover{
-    border-bottom: 2px solid #000;
-}
+
 .sitenav-link{
+    padding-bottom: 2px;
     text-decoration: none;
     font-weight: 400;
     font-size: 15px;
     line-height: 150%;
     text-align: center;
     color: #333333;
+    border-bottom: 3px solid transparent;
+}
+.sitenav-link:hover{
+    border-bottom: 3px solid #000;
 }
 .search-input{
     margin-top: 33px;
