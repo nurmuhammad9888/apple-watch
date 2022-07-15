@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    font-family: "Roboto","Arial", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    border-bottom: 2px solid #dddddd;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.sitenav{
+    display: flex;
+}
+.site-header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: block;
+    padding-top: 30px;
+}
+.sitenav-list{
+    display: flex;
+    list-style: none;
+}
+.sitenav-item{
+    padding:36px 15px 5px 15px ;
+    border-bottom: 2px solid transparent;
+}
+.sitenav-item:hover{
+    border-bottom: 2px solid #000;
+}
+.sitenav-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #333333;
+}
+.search-input{
+    margin-top: 33px;
+    margin-left: 25px;
+    padding: 6px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+}
+.search-input::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666
+}
+.hero-info-wrapper{
+    padding-top: 171px;
+    padding-bottom: 185px;
+    width: 490px;
+}
+.hero-title{
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+    padding-bottom: 30px;
+}
+.hero-info-wrapper p,
+.neke-watch-wrapper p,
+.health-box p{
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #777777;
+    border-left: 3px solid #888888;
+}
+.hero-info-wrapper a,
+.neke-watch-wrapper a,
+.health-box a{
+    display: inline-block;
+    margin-top: 42px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    align-items: center;
+    padding: 12px 38px;
+    width: 260px;
+    height: 51px;
+    background: #EA625C;
+}
+.hero-info-wrapper a:hover,
+.neke-watch-wrapper a:hover,
+.health-box a:hover{
+    background: #C9514C;
+}
+.hero{
+    display: inline-block;
+    width: 100%;
+    height: 666px;
+    background-image: url("../images/intro-bg.png");
+    background-size: 587px 565px;
+    background-position: calc(40% + 750px) calc(50% + 50px);
+    background-repeat: no-repeat;
+}
+
+/* about */
+.about-blok{
+    padding-top: 70px;
+}
+.about-list{
+    display: flex;
+    justify-content: space-between;
+}
+.about-item{
+    width: 280px;
+    list-style: none;
+}
+.about-item h3{
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+.about-item p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #333333;
+}
+.rectangle{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #dddddd;
+    margin: 20px 10px;
+}
+.learn-more{
+    display: inline-block;
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #EA625C;
+}
+.learn-more::before{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 4px;
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: #EA625C;
+    transition: .5s ease;
+}
+.learn-more:hover::before{
+    width: 60px;
+}
+.section-neke-watch{
+    margin-top: 164px;
+    display: flex;
+    width: 100%;
+    height: 599px;
+    background-image: url("../images/watch-in-hand.jpg");
+    background-size: contain;
+    background-position: calc(50% + 350px)calc(50%);
+    background-repeat: no-repeat;
+}
+.neke-watch-wrapper{
+    padding-top: 106px;
+    width: 490px;
+}
+.health-box h3,
+.health-box p{
+    color: #fff;
+}
+.health-box{
+    width: 490px;
+    padding: 240px 0 239px 0;
+    margin-left: auto;
+}
+.section-health{
+    margin-top: 70px;
+    width: 100%;
+    background-image: url("../images/runners.jpg");
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
